@@ -29,6 +29,7 @@ class TestPubAritcle:
     def test_pub_ari(self, title_ari, context_ari, channel_ari, expect):
         # 组织测试数据
         config.PUB_ARITCAL_TITLE = title_ari.format(time.strftime("%H%M%S"))
+        print(config.PUB_ARITCAL_TITLE)
         # 执行测试步骤
         self.home_proxy.to_pub_ari_page()
         self.pub_ari_proxy.test_pub_artcal(config.PUB_ARITCAL_TITLE, context_ari, channel_ari)
