@@ -23,6 +23,7 @@ class TestMpLlogin:
     def test_mp_login(self):
         username = "13911111111"
         code = "246810"
+        print(username,code)
         #         3.1定义测试数据
         self.login_proxy.test_mp_login(username, code)
         #         3.2调用业务方法形成完整的业务操作
