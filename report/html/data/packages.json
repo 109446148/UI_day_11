@@ -1,0 +1,153 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "mp",
+      "children" : [ {
+        "name" : "test_begin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "8adfdb3c66113ba8",
+          "parentUid" : "483a23d8988956c5156815f02b8bb31d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446413201,
+            "stop" : 1598446413201,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "483a23d8988956c5156815f02b8bb31d"
+      }, {
+        "name" : "test_mp_login",
+        "children" : [ {
+          "name" : "test_mp_login",
+          "uid" : "6538e1e19ba455f0",
+          "parentUid" : "e5d8885fd53b21d70f3d09f41aa777fc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446418920,
+            "stop" : 1598446420624,
+            "duration" : 1704
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e5d8885fd53b21d70f3d09f41aa777fc"
+      }, {
+        "name" : "test_mp_aritcle",
+        "children" : [ {
+          "name" : "test_pub_ari[招聘测试精英_一起共创未来_{}-欢迎各路精英相聚，待遇优厚，福利诱人-软件测试-新增文章成功]",
+          "uid" : "c0025221ba2e4eeb",
+          "parentUid" : "dfd291c2697d2c16c584f12fba7af539",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446424216,
+            "stop" : 1598446434589,
+            "duration" : 10373
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'软件测试'", "'欢迎各路精英相聚，待遇优厚，福利诱人'", "'新增文章成功'", "'招聘测试精英_一起共创未来_{}'" ]
+        } ],
+        "uid" : "dfd291c2697d2c16c584f12fba7af539"
+      }, {
+        "name" : "test_end",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "9a127d9660071e95",
+          "parentUid" : "7a7eef47d6905cd43ddd52ef4057502b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446434639,
+            "stop" : 1598446438859,
+            "duration" : 4220
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7a7eef47d6905cd43ddd52ef4057502b"
+      } ],
+      "uid" : "f729e3ae600bc8065b475ad9e41d1771"
+    }, {
+      "name" : "mis",
+      "children" : [ {
+        "name" : "test_begin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "fa4270613662ba20",
+          "parentUid" : "07171998de8febc01b7526d5044e7c9d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446438875,
+            "stop" : 1598446438875,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "07171998de8febc01b7526d5044e7c9d"
+      }, {
+        "name" : "test_mis_login",
+        "children" : [ {
+          "name" : "test_mis_login",
+          "uid" : "dc13ad836efaf836",
+          "parentUid" : "eff03b0ca789d9f39f4ea0f6fe90f9f1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446446079,
+            "stop" : 1598446448535,
+            "duration" : 2456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eff03b0ca789d9f39f4ea0f6fe90f9f1"
+      }, {
+        "name" : "test_mis_aritcle_manage",
+        "children" : [ {
+          "name" : "test_aduit_pass",
+          "uid" : "3f2e53ea1f38034a",
+          "parentUid" : "9abb2d0548e5223633c941ebdaf922e7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1598446451540,
+            "stop" : 1598446488582,
+            "duration" : 37042
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9abb2d0548e5223633c941ebdaf922e7"
+      }, {
+        "name" : "test_end",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "6befd5e9939dd156",
+          "parentUid" : "6aae1f0f4ed2cfe911b2357246e73404",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446488719,
+            "stop" : 1598446492947,
+            "duration" : 4228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6aae1f0f4ed2cfe911b2357246e73404"
+      } ],
+      "uid" : "dce4d8f71ea6895c566b72c2a17cbd50"
+    } ],
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
+  } ]
+}

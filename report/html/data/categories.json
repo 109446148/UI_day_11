@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='通过']\"}\n  (Session info: chrome=84.0.4147.105)",
+      "children" : [ {
+        "name" : "test_aduit_pass",
+        "uid" : "3f2e53ea1f38034a",
+        "parentUid" : "04ff0d211967057f52e2a7d24986d840",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598446451540,
+          "stop" : 1598446488582,
+          "duration" : 37042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04ff0d211967057f52e2a7d24986d840"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

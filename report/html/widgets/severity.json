@@ -1,0 +1,81 @@
+[ {
+  "uid" : "8adfdb3c66113ba8",
+  "name" : "test_begin",
+  "time" : {
+    "start" : 1598446413201,
+    "stop" : 1598446413201,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0025221ba2e4eeb",
+  "name" : "test_pub_ari[招聘测试精英_一起共创未来_{}-欢迎各路精英相聚，待遇优厚，福利诱人-软件测试-新增文章成功]",
+  "time" : {
+    "start" : 1598446424216,
+    "stop" : 1598446434589,
+    "duration" : 10373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6538e1e19ba455f0",
+  "name" : "test_mp_login",
+  "time" : {
+    "start" : 1598446418920,
+    "stop" : 1598446420624,
+    "duration" : 1704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a127d9660071e95",
+  "name" : "test_end",
+  "time" : {
+    "start" : 1598446434639,
+    "stop" : 1598446438859,
+    "duration" : 4220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6befd5e9939dd156",
+  "name" : "test_end",
+  "time" : {
+    "start" : 1598446488719,
+    "stop" : 1598446492947,
+    "duration" : 4228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f2e53ea1f38034a",
+  "name" : "test_aduit_pass",
+  "time" : {
+    "start" : 1598446451540,
+    "stop" : 1598446488582,
+    "duration" : 37042
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fa4270613662ba20",
+  "name" : "test_begin",
+  "time" : {
+    "start" : 1598446438875,
+    "stop" : 1598446438875,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc13ad836efaf836",
+  "name" : "test_mis_login",
+  "time" : {
+    "start" : 1598446446079,
+    "stop" : 1598446448535,
+    "duration" : 2456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,121 @@
+{
+  "uid" : "dc13ad836efaf836",
+  "name" : "test_mis_login",
+  "fullName" : "case.mis.test_mis_login.TestMisLogin#test_mis_login",
+  "historyId" : "dee4bd3b86e61ed3e09fe83b090d6e10",
+  "time" : {
+    "start" : 1598446446079,
+    "stop" : 1598446448535,
+    "duration" : 2456
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598446438888,
+      "stop" : 1598446446078,
+      "duration" : 7190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598446448536,
+      "stop" : 1598446451536,
+      "duration" : 3000
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=102)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.mis"
+  }, {
+    "name" : "suite",
+    "value" : "test_mis_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-202006181902"
+  }, {
+    "name" : "thread",
+    "value" : "13828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.mis.test_mis_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b8b629f87d8d875",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598444203398,
+        "stop" : 1598444206202,
+        "duration" : 2804
+      }
+    }, {
+      "uid" : "a62bf5bfafd90618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598444039161,
+        "stop" : 1598444042135,
+        "duration" : 2974
+      }
+    }, {
+      "uid" : "991d1094930b93d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598443936604,
+        "stop" : 1598443939286,
+        "duration" : 2682
+      }
+    }, {
+      "uid" : "88524a0da152f9fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598443448885,
+        "stop" : 1598443451334,
+        "duration" : 2449
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=102)" ]
+  },
+  "source" : "dc13ad836efaf836.json",
+  "parameterValues" : [ ]
+}

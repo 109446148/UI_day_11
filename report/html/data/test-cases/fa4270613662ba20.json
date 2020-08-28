@@ -1,0 +1,91 @@
+{
+  "uid" : "fa4270613662ba20",
+  "name" : "test_begin",
+  "fullName" : "case.mis.test_begin.TestBegin#test_begin",
+  "historyId" : "e963808b05bb31fe9a655524ed884d05",
+  "time" : {
+    "start" : 1598446438875,
+    "stop" : 1598446438875,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=101)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.mis"
+  }, {
+    "name" : "suite",
+    "value" : "test_begin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBegin"
+  }, {
+    "name" : "host",
+    "value" : "SC-202006181902"
+  }, {
+    "name" : "thread",
+    "value" : "13828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.mis.test_begin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b7aaa2cbc7e600f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598444196328,
+        "stop" : 1598444196328,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "26d1129fa6996ea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598444028024,
+        "stop" : 1598444028024,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8e26d6ee4aebb399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598443929043,
+        "stop" : 1598443929043,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5a002a837bcf5093",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598443442774,
+        "stop" : 1598443442774,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=101)" ]
+  },
+  "source" : "fa4270613662ba20.json",
+  "parameterValues" : [ ]
+}

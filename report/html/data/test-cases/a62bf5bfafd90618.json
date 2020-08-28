@@ -1,0 +1,87 @@
+{
+  "uid" : "a62bf5bfafd90618",
+  "name" : "test_mis_login",
+  "fullName" : "case.mis.test_mis_login.TestMisLogin#test_mis_login",
+  "historyId" : "dee4bd3b86e61ed3e09fe83b090d6e10",
+  "time" : {
+    "start" : 1598444039161,
+    "stop" : 1598444042135,
+    "duration" : 2974
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598444028040,
+      "stop" : 1598444039160,
+      "duration" : 11120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598444042155,
+      "stop" : 1598444045156,
+      "duration" : 3001
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=102)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.mis"
+  }, {
+    "name" : "suite",
+    "value" : "test_mis_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-202006181902"
+  }, {
+    "name" : "thread",
+    "value" : "13976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.mis.test_mis_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=102)" ]
+  },
+  "source" : "a62bf5bfafd90618.json",
+  "parameterValues" : [ ]
+}

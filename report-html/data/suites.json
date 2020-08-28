@@ -1,0 +1,194 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case.mis",
+    "children" : [ {
+      "name" : "test_end",
+      "children" : [ {
+        "name" : "TestEnd",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "7ef7151ad4e127fe",
+          "parentUid" : "f2d59446f19e3bc6ded5462f07e92795",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598443457731,
+            "stop" : 1598443461989,
+            "duration" : 4258
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f2d59446f19e3bc6ded5462f07e92795"
+      } ],
+      "uid" : "bf0c7b5b1f57bd0e2056e93fbd586b89"
+    }, {
+      "name" : "test_begin",
+      "children" : [ {
+        "name" : "TestBegin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "df1432460ef432a1",
+          "parentUid" : "92d6fd506fe15de715dba85c857b9e2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598443929043,
+            "stop" : 1598443929043,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "92d6fd506fe15de715dba85c857b9e2c"
+      } ],
+      "uid" : "1632d54204f30900ab8e5c2e54d882c8"
+    }, {
+      "name" : "test_mis_aritcle_manage",
+      "children" : [ {
+        "name" : "TestAritcleMana",
+        "children" : [ {
+          "name" : "test_aduit_pass",
+          "uid" : "47e1067c3a8fad4c",
+          "parentUid" : "04eacc7fa0af62b534779f5dfb54b81e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1598443942295,
+            "stop" : 1598443945865,
+            "duration" : 3570
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "04eacc7fa0af62b534779f5dfb54b81e"
+      } ],
+      "uid" : "d6090f431163d8a40aa26919251bddea"
+    }, {
+      "name" : "test_mis_login",
+      "children" : [ {
+        "name" : "TestMisLogin",
+        "children" : [ {
+          "name" : "test_mis_login",
+          "uid" : "cd404324c05ba8d0",
+          "parentUid" : "710db99f1e3d9c6ccd6d5ca8ab9bb824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446446079,
+            "stop" : 1598446448535,
+            "duration" : 2456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "710db99f1e3d9c6ccd6d5ca8ab9bb824"
+      } ],
+      "uid" : "6c3c7ab5edaf6b2b941fd82ff4665642"
+    } ],
+    "uid" : "161959b9461abb8732fe0e097cab26a7"
+  }, {
+    "name" : "case.mp",
+    "children" : [ {
+      "name" : "test_begin",
+      "children" : [ {
+        "name" : "TestBegin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "135d05a27076303f",
+          "parentUid" : "3c7444421aa48d967fd98d9d2953d445",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598517388825,
+            "stop" : 1598517388825,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3c7444421aa48d967fd98d9d2953d445"
+      } ],
+      "uid" : "5b3bf97fa043c3daa3460017b03b53db"
+    }, {
+      "name" : "test_mp_login",
+      "children" : [ {
+        "name" : "TestMpLlogin",
+        "children" : [ {
+          "name" : "test_mp_login",
+          "uid" : "de63450dd89ab2e4",
+          "parentUid" : "cbfd3f714926e8d0c1377e86100cf88e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598517395600,
+            "stop" : 1598517397448,
+            "duration" : 1848
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cbfd3f714926e8d0c1377e86100cf88e"
+      } ],
+      "uid" : "6b60fc946431692c75234dc30a522d97"
+    }, {
+      "name" : "test_mp_aritcle",
+      "children" : [ {
+        "name" : "TestPubAritcle",
+        "children" : [ {
+          "name" : "test_pub_ari[招聘测试精英_一起共创未来_{}-欢迎各路精英相聚，待遇优厚，福利诱人-软件测试-新增文章成功]",
+          "uid" : "ded90cdb0cb27b4b",
+          "parentUid" : "5aa3f2ed624e2a795fd7a94671e3322f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598517401047,
+            "stop" : 1598517412019,
+            "duration" : 10972
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'软件测试'", "'欢迎各路精英相聚，待遇优厚，福利诱人'", "'新增文章成功'", "'招聘测试精英_一起共创未来_{}'" ]
+        }, {
+          "name" : "test_pub_ari[招聘人工智能精英_一起共创未来_{}-人工智能精英相聚，待遇优厚，福利诱人-人工智能-新增文章成功]",
+          "uid" : "36eaf515a5e36096",
+          "parentUid" : "5aa3f2ed624e2a795fd7a94671e3322f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598517412471,
+            "stop" : 1598517418694,
+            "duration" : 6223
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'人工智能'", "'人工智能精英相聚，待遇优厚，福利诱人'", "'新增文章成功'", "'招聘人工智能精英_一起共创未来_{}'" ]
+        } ],
+        "uid" : "5aa3f2ed624e2a795fd7a94671e3322f"
+      } ],
+      "uid" : "d74dc9cb0701d16602dd319eb1bc0f16"
+    }, {
+      "name" : "test_end",
+      "children" : [ {
+        "name" : "TestEnd",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "887601dba44e73a6",
+          "parentUid" : "f7918d47dc6a7a0e6a3c29baa36cc519",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598517418714,
+            "stop" : 1598517422956,
+            "duration" : 4242
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f7918d47dc6a7a0e6a3c29baa36cc519"
+      } ],
+      "uid" : "8c16a6158e4ca1187e1ffb4035fedc9a"
+    } ],
+    "uid" : "1ce536a0a895f6300c151295e589a3fd"
+  } ]
+}

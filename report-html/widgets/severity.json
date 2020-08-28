@@ -1,0 +1,91 @@
+[ {
+  "uid" : "de63450dd89ab2e4",
+  "name" : "test_mp_login",
+  "time" : {
+    "start" : 1598517395600,
+    "stop" : 1598517397448,
+    "duration" : 1848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "135d05a27076303f",
+  "name" : "test_begin",
+  "time" : {
+    "start" : 1598517388825,
+    "stop" : 1598517388825,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36eaf515a5e36096",
+  "name" : "test_pub_ari[招聘人工智能精英_一起共创未来_{}-人工智能精英相聚，待遇优厚，福利诱人-人工智能-新增文章成功]",
+  "time" : {
+    "start" : 1598517412471,
+    "stop" : 1598517418694,
+    "duration" : 6223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "887601dba44e73a6",
+  "name" : "test_end",
+  "time" : {
+    "start" : 1598517418714,
+    "stop" : 1598517422956,
+    "duration" : 4242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd404324c05ba8d0",
+  "name" : "test_mis_login",
+  "time" : {
+    "start" : 1598446446079,
+    "stop" : 1598446448535,
+    "duration" : 2456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df1432460ef432a1",
+  "name" : "test_begin",
+  "time" : {
+    "start" : 1598443929043,
+    "stop" : 1598443929043,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ded90cdb0cb27b4b",
+  "name" : "test_pub_ari[招聘测试精英_一起共创未来_{}-欢迎各路精英相聚，待遇优厚，福利诱人-软件测试-新增文章成功]",
+  "time" : {
+    "start" : 1598517401047,
+    "stop" : 1598517412019,
+    "duration" : 10972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47e1067c3a8fad4c",
+  "name" : "test_aduit_pass",
+  "time" : {
+    "start" : 1598443942295,
+    "stop" : 1598443945865,
+    "duration" : 3570
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7ef7151ad4e127fe",
+  "name" : "test_end",
+  "time" : {
+    "start" : 1598443457731,
+    "stop" : 1598443461989,
+    "duration" : 4258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

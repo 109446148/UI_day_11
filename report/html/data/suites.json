@@ -1,0 +1,181 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case.mp",
+    "children" : [ {
+      "name" : "test_begin",
+      "children" : [ {
+        "name" : "TestBegin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "8adfdb3c66113ba8",
+          "parentUid" : "3c7444421aa48d967fd98d9d2953d445",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446413201,
+            "stop" : 1598446413201,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3c7444421aa48d967fd98d9d2953d445"
+      } ],
+      "uid" : "5b3bf97fa043c3daa3460017b03b53db"
+    }, {
+      "name" : "test_mp_login",
+      "children" : [ {
+        "name" : "TestMpLlogin",
+        "children" : [ {
+          "name" : "test_mp_login",
+          "uid" : "6538e1e19ba455f0",
+          "parentUid" : "cbfd3f714926e8d0c1377e86100cf88e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446418920,
+            "stop" : 1598446420624,
+            "duration" : 1704
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cbfd3f714926e8d0c1377e86100cf88e"
+      } ],
+      "uid" : "6b60fc946431692c75234dc30a522d97"
+    }, {
+      "name" : "test_mp_aritcle",
+      "children" : [ {
+        "name" : "TestPubAritcle",
+        "children" : [ {
+          "name" : "test_pub_ari[招聘测试精英_一起共创未来_{}-欢迎各路精英相聚，待遇优厚，福利诱人-软件测试-新增文章成功]",
+          "uid" : "c0025221ba2e4eeb",
+          "parentUid" : "5aa3f2ed624e2a795fd7a94671e3322f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446424216,
+            "stop" : 1598446434589,
+            "duration" : 10373
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'软件测试'", "'欢迎各路精英相聚，待遇优厚，福利诱人'", "'新增文章成功'", "'招聘测试精英_一起共创未来_{}'" ]
+        } ],
+        "uid" : "5aa3f2ed624e2a795fd7a94671e3322f"
+      } ],
+      "uid" : "d74dc9cb0701d16602dd319eb1bc0f16"
+    }, {
+      "name" : "test_end",
+      "children" : [ {
+        "name" : "TestEnd",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "9a127d9660071e95",
+          "parentUid" : "f7918d47dc6a7a0e6a3c29baa36cc519",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446434639,
+            "stop" : 1598446438859,
+            "duration" : 4220
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f7918d47dc6a7a0e6a3c29baa36cc519"
+      } ],
+      "uid" : "8c16a6158e4ca1187e1ffb4035fedc9a"
+    } ],
+    "uid" : "1ce536a0a895f6300c151295e589a3fd"
+  }, {
+    "name" : "case.mis",
+    "children" : [ {
+      "name" : "test_begin",
+      "children" : [ {
+        "name" : "TestBegin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "fa4270613662ba20",
+          "parentUid" : "92d6fd506fe15de715dba85c857b9e2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446438875,
+            "stop" : 1598446438875,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "92d6fd506fe15de715dba85c857b9e2c"
+      } ],
+      "uid" : "1632d54204f30900ab8e5c2e54d882c8"
+    }, {
+      "name" : "test_mis_login",
+      "children" : [ {
+        "name" : "TestMisLogin",
+        "children" : [ {
+          "name" : "test_mis_login",
+          "uid" : "dc13ad836efaf836",
+          "parentUid" : "710db99f1e3d9c6ccd6d5ca8ab9bb824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446446079,
+            "stop" : 1598446448535,
+            "duration" : 2456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "710db99f1e3d9c6ccd6d5ca8ab9bb824"
+      } ],
+      "uid" : "6c3c7ab5edaf6b2b941fd82ff4665642"
+    }, {
+      "name" : "test_mis_aritcle_manage",
+      "children" : [ {
+        "name" : "TestAritcleMana",
+        "children" : [ {
+          "name" : "test_aduit_pass",
+          "uid" : "3f2e53ea1f38034a",
+          "parentUid" : "04eacc7fa0af62b534779f5dfb54b81e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1598446451540,
+            "stop" : 1598446488582,
+            "duration" : 37042
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "04eacc7fa0af62b534779f5dfb54b81e"
+      } ],
+      "uid" : "d6090f431163d8a40aa26919251bddea"
+    }, {
+      "name" : "test_end",
+      "children" : [ {
+        "name" : "TestEnd",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "6befd5e9939dd156",
+          "parentUid" : "f2d59446f19e3bc6ded5462f07e92795",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446488719,
+            "stop" : 1598446492947,
+            "duration" : 4228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f2d59446f19e3bc6ded5462f07e92795"
+      } ],
+      "uid" : "bf0c7b5b1f57bd0e2056e93fbd586b89"
+    } ],
+    "uid" : "161959b9461abb8732fe0e097cab26a7"
+  } ]
+}

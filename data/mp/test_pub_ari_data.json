@@ -1,0 +1,15 @@
+{
+  "test_pub_ari_01": {
+     "title_ari" : "招聘测试精英_一起共创未来_{}",
+    "context_ari": "欢迎各路精英相聚，待遇优厚，福利诱人",
+    "channel_ari ": "软件测试",
+    "except": "新增文章成功"
+  },
+  "test_pub_ari_02": {
+   "title_ari" : "招聘人工智能精英_一起共创未来_{}",
+  "context_ari": "人工智能精英相聚，待遇优厚，福利诱人",
+  "channel_ari ": "人工智能",
+  "except": "新增文章成功"
+}
+
+}

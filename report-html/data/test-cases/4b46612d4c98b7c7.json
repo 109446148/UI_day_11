@@ -1,0 +1,71 @@
+{
+  "uid" : "4b46612d4c98b7c7",
+  "name" : "test_pub_ari[招聘测试精英_一起共创未来_{}-欢迎各路精英相聚，待遇优厚，福利诱人-软件测试-新增文章成功]",
+  "fullName" : "case.mp.test_mp_aritcle.TestPubAritcle#test_pub_ari",
+  "historyId" : "38334a3f2ef5f0b3163328266dd6c491",
+  "time" : {
+    "start" : 1598443966137,
+    "stop" : 1598443967913,
+    "duration" : 1776
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'clear'",
+  "statusTrace" : "self = <case.mp.test_mp_aritcle.TestPubAritcle object at 0x0000018CEA8117F0>, title_ari = '招聘测试精英_一起共创未来_{}', context_ari = '欢迎各路精英相聚，待遇优厚，福利诱人', channel_ari = '软件测试'\nexpect = '新增文章成功'\n\n    @pytest.mark.parametrize((\"title_ari\", \"context_ari\", \"channel_ari\", \"expect\"),\n                             get_case_data(\"./data/mp/test_pub_ari_data.json\"))\n    def test_pub_ari(self, title_ari, context_ari, channel_ari, expect):\n        # 组织测试数据\n        config.PUB_ARITCAL_TITLE = title_ari.format(time.strftime(\"%H%M%S\"))\n        # 执行测试步骤\n        self.home_proxy.to_pub_ari_page()\n>       self.pub_ari_proxy.test_pub_artcal(config.PUB_ARITCAL_TITLE, context_ari, channel_ari)\n\ncase\\mp\\test_mp_aritcle.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage\\mp\\publish_artical_page.py:83: in test_pub_artcal\n    self.pub_handle.input_ari_title(tltle)\npage\\mp\\publish_artical_page.py:59: in input_ari_title\n    self.input_text(self.pub_ari_page.find_ari_title(), title)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.mp.publish_artical_page.PubAriHandle object at 0x0000018CEA94A0F0>, element = None, text = '招聘测试精英_一起共创未来_201246'\n\n    def input_text(self, element, text):\n>       element.clear()\nE       AttributeError: 'NoneType' object has no attribute 'clear'\n\nbase\\mp_base\\base_page.py:20: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=103)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.mp"
+  }, {
+    "name" : "suite",
+    "value" : "test_mp_aritcle"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPubAritcle"
+  }, {
+    "name" : "host",
+    "value" : "SC-202006181902"
+  }, {
+    "name" : "thread",
+    "value" : "9472-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.mp.test_mp_aritcle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "channel_ari",
+    "value" : "'软件测试'"
+  }, {
+    "name" : "context_ari",
+    "value" : "'欢迎各路精英相聚，待遇优厚，福利诱人'"
+  }, {
+    "name" : "expect",
+    "value" : "'新增文章成功'"
+  }, {
+    "name" : "title_ari",
+    "value" : "'招聘测试精英_一起共创未来_{}'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=103)" ]
+  },
+  "source" : "4b46612d4c98b7c7.json",
+  "parameterValues" : [ "'软件测试'", "'欢迎各路精英相聚，待遇优厚，福利诱人'", "'新增文章成功'", "'招聘测试精英_一起共创未来_{}'" ]
+}

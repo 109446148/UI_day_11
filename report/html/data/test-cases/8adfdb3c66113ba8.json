@@ -1,0 +1,91 @@
+{
+  "uid" : "8adfdb3c66113ba8",
+  "name" : "test_begin",
+  "fullName" : "case.mp.test_begin.TestBegin#test_begin",
+  "historyId" : "a4dfefd3d665390e4cb1d1df8884ef92",
+  "time" : {
+    "start" : 1598446413201,
+    "stop" : 1598446413201,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.mp"
+  }, {
+    "name" : "suite",
+    "value" : "test_begin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBegin"
+  }, {
+    "name" : "host",
+    "value" : "SC-202006181902"
+  }, {
+    "name" : "thread",
+    "value" : "13828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.mp.test_begin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "546e4cd8fc8efd1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598444163993,
+        "stop" : 1598444163993,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "91d791562f6e0b62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598444028033,
+        "stop" : 1598444028033,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fffd51e59978385f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598443951352,
+        "stop" : 1598443951352,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4f35d3f22f102af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598443462008,
+        "stop" : 1598443462008,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "8adfdb3c66113ba8.json",
+  "parameterValues" : [ ]
+}

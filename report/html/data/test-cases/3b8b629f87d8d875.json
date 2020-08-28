@@ -1,0 +1,87 @@
+{
+  "uid" : "3b8b629f87d8d875",
+  "name" : "test_mis_login",
+  "fullName" : "case.mis.test_mis_login.TestMisLogin#test_mis_login",
+  "historyId" : "dee4bd3b86e61ed3e09fe83b090d6e10",
+  "time" : {
+    "start" : 1598444203398,
+    "stop" : 1598444206202,
+    "duration" : 2804
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1598444196333,
+      "stop" : 1598444203397,
+      "duration" : 7064
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1598444206213,
+      "stop" : 1598444209214,
+      "duration" : 3001
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=102)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.mis"
+  }, {
+    "name" : "suite",
+    "value" : "test_mis_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisLogin"
+  }, {
+    "name" : "host",
+    "value" : "SC-202006181902"
+  }, {
+    "name" : "thread",
+    "value" : "11052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.mis.test_mis_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=102)" ]
+  },
+  "source" : "3b8b629f87d8d875.json",
+  "parameterValues" : [ ]
+}

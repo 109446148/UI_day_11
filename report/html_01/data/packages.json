@@ -1,0 +1,166 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "mis",
+      "children" : [ {
+        "name" : "test_end",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "d1efbe8d22826845",
+          "parentUid" : "6aae1f0f4ed2cfe911b2357246e73404",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598443457731,
+            "stop" : 1598443461989,
+            "duration" : 4258
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6aae1f0f4ed2cfe911b2357246e73404"
+      }, {
+        "name" : "test_begin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "4f9714a4135791b1",
+          "parentUid" : "07171998de8febc01b7526d5044e7c9d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598443929043,
+            "stop" : 1598443929043,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "07171998de8febc01b7526d5044e7c9d"
+      }, {
+        "name" : "test_mis_aritcle_manage",
+        "children" : [ {
+          "name" : "test_aduit_pass",
+          "uid" : "b251ddb4f0c1ce8a",
+          "parentUid" : "9abb2d0548e5223633c941ebdaf922e7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1598443942295,
+            "stop" : 1598443945865,
+            "duration" : 3570
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9abb2d0548e5223633c941ebdaf922e7"
+      }, {
+        "name" : "test_mis_login",
+        "children" : [ {
+          "name" : "test_mis_login",
+          "uid" : "6685d5d924774eaa",
+          "parentUid" : "eff03b0ca789d9f39f4ea0f6fe90f9f1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598446446079,
+            "stop" : 1598446448535,
+            "duration" : 2456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eff03b0ca789d9f39f4ea0f6fe90f9f1"
+      } ],
+      "uid" : "dce4d8f71ea6895c566b72c2a17cbd50"
+    }, {
+      "name" : "mp",
+      "children" : [ {
+        "name" : "test_begin",
+        "children" : [ {
+          "name" : "test_begin",
+          "uid" : "c41515170f1d663c",
+          "parentUid" : "483a23d8988956c5156815f02b8bb31d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598515321613,
+            "stop" : 1598515321613,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "483a23d8988956c5156815f02b8bb31d"
+      }, {
+        "name" : "test_mp_login",
+        "children" : [ {
+          "name" : "test_mp_login",
+          "uid" : "e7ea43e9e9ea1324",
+          "parentUid" : "e5d8885fd53b21d70f3d09f41aa777fc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598515328607,
+            "stop" : 1598515331521,
+            "duration" : 2914
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e5d8885fd53b21d70f3d09f41aa777fc"
+      }, {
+        "name" : "test_mp_aritcle",
+        "children" : [ {
+          "name" : "test_pub_ari[招聘测试精英_一起共创未来_{}-欢迎各路精英相聚，待遇优厚，福利诱人-软件测试-新增文章成功]",
+          "uid" : "5ed08240c842c88f",
+          "parentUid" : "dfd291c2697d2c16c584f12fba7af539",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598515335455,
+            "stop" : 1598515347412,
+            "duration" : 11957
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'软件测试'", "'欢迎各路精英相聚，待遇优厚，福利诱人'", "'新增文章成功'", "'招聘测试精英_一起共创未来_{}'" ]
+        }, {
+          "name" : "test_pub_ari[招聘人工智能精英_一起共创未来_{}-人工智能精英相聚，待遇优厚，福利诱人-人工智能-新增文章成功]",
+          "uid" : "3fdde4cab8d4500a",
+          "parentUid" : "dfd291c2697d2c16c584f12fba7af539",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598515348847,
+            "stop" : 1598515356517,
+            "duration" : 7670
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'人工智能'", "'人工智能精英相聚，待遇优厚，福利诱人'", "'新增文章成功'", "'招聘人工智能精英_一起共创未来_{}'" ]
+        } ],
+        "uid" : "dfd291c2697d2c16c584f12fba7af539"
+      }, {
+        "name" : "test_end",
+        "children" : [ {
+          "name" : "test_end",
+          "uid" : "438adcac1d43aaf6",
+          "parentUid" : "7a7eef47d6905cd43ddd52ef4057502b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598515356545,
+            "stop" : 1598515361163,
+            "duration" : 4618
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7a7eef47d6905cd43ddd52ef4057502b"
+      } ],
+      "uid" : "f729e3ae600bc8065b475ad9e41d1771"
+    } ],
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
+  } ]
+}
